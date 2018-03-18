@@ -67,10 +67,10 @@ def show_madlib():
     color = request.args.get("color")
     pets = request.args.getlist("pets")
 
-    files = ["madlib.html", "madlibs1.html"]
-    madlib_choice = choice(files)
+    # files = ["madlib.html", "madlibs1.html"]
+    # madlib_choice = choice(files)
 
-    return render_template(madlib_choice,
+    return render_template("madlib.html",
                            person=person,
                            color=color,
                            noun=noun,
