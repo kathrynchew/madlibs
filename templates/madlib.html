@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="/static/madlibs.css">
     <title>Your Finished Madlib</title>
 </head>
 <body>
+<div class="madlib">
 There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab.
 When {{ person }} went to pick it up, it burst into flames in a totally
-{{ adjective }} way.
+{{ adjective }} way, and he said he loves
 
-{{ pets }}
+{% for pet in pets %}
+{{ pet }}{% endfor %}!
+</div>
 </body>
 </html>

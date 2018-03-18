@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+}
+
+.madlib {
+    width: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: red;
+}
