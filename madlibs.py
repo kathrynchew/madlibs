@@ -33,7 +33,7 @@ def say_hello():
 def greet_person():
     """Greet user with compliment."""
 
-    player = request.args.get("person")
+    player = request.form['person']
 
     compliment = choice(AWESOMENESS)
 
